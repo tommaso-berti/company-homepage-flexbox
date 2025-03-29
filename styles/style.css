@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', 'Times New Roman', sans-serif;
+}
+
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.logo {
+    font-size: 1.5rem;
+    line-height: 0.3rem;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li h2 {
+    font-weight: lighter;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
